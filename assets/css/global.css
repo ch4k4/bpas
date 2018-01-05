@@ -1,0 +1,39 @@
+/* =Layout
+
+------------------------------------------------------------------------------------------------*/
+#masthead,#navigation, #main, #footer{
+	clear:both;
+	float:left;
+	margin:0 10%;
+	width:80%;
+	
+}
+
+/* =Layout Masthead
+------------------------------------------------------------------------------------------------*/
+#masthead{
+	background:url(../images/logo.png) no-repeat;
+	height:60px;
+	background-position: right;
+}
+
+#masthead h1{
+	display:none;
+}
+
+/* =Layout Main
+------------------------------------------------------------------------------------------------*/
+#main{
+	padding:10px 0 30px;
+}
+
+/* =Layout Footer
+------------------------------------------------------------------------------------------------*/
+#footer{
+	background-color:rgba(255,165,0,0.3);
+	bottom:0;	
+	border-top:1px solid #FFCB2D;
+	font-size:smaller;
+	font-weight:bold;
+	padding-top:5px;	
+}
